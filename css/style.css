@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgba(237, 130, 130, 0.672) !important;
+}
+
+.box {
+    background-color: azure;
+    width: 60%;
+}
+
+.input:focus {
+    outline: none;
+
+}
+
+/* .box1 {
+    max-width: 60%;
+}  */
+
+.taskBox {
+    background-color: azure !important;
+    max-width: 100%;
+    border-radius: 10rem;
+    overflow-x: auto;
+}
+
+.input-text {
+    min-width: 20rem;
+    max-width: 20rem;
+    overflow: auto;
+}
+
+.line-through {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+#add-btn,
+.completeTask,
+.deleteTask {
+    cursor: pointer;
+}
+
+.wrapper {
+    /* background-color: aqua; */
+    max-height: 30rem;
+
+    overflow: auto;
+}
