@@ -10,6 +10,7 @@ body {
     width: 60%;
 }
 
+ 
 .input:focus {
     outline: none;
 
@@ -27,7 +28,7 @@ body {
 }
 
 .input-text {
-    min-width: 20rem;
+    min-width: 10rem;
     max-width: 20rem;
     overflow: auto;
 }
@@ -48,4 +49,10 @@ body {
     max-height: 30rem;
 
     overflow: auto;
+}
+
+@media (min-width: 768px) {
+    .input-text {
+        min-width: 20rem;
+    }
 }
