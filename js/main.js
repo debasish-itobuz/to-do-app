@@ -2,6 +2,7 @@ const todoContainer = document.getElementsByClassName('todo-container')[0];
 const inputBox = document.getElementsByClassName('input')[0];
 const addBtn = document.getElementById('add-btn');
 
+
 addBtn.addEventListener("click", () => {
     addTask();
 })

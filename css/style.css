@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: rgba(237, 130, 130, 0.672) !important;
+    /* background-color: rgba(237, 130, 130, 0.672) !important; */
 }
 
 .box {
